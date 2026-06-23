@@ -1,0 +1,8 @@
+print("=" * 35)
+print("  BMI Calculator ")
+print("=" * 35)
+weight =float(input("Enter your weight (kg): "))
+height= float(input("Enter your height (kg): ")) 
+bmi = weight/(height *height)
+print("\n")
+print("Your BMI is ",bmi)
